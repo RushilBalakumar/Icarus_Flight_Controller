@@ -1,5 +1,6 @@
 # Icarus_Flight_Controller
-A compact indoor drone flight controller built around the ESP32 microcontroller, designed specifically for brushed motor quadcopters. It integrates critical subsystems including an inertial measurement unit, motor control, battery management, and camera connectivity, making it ideal for small-scale autonomous or semi-autonomous aerial robotics.
+A compact indoor drone flight controller built around the ESP32 microcontroller, designed specifically for brushed motor quadcopters. It integrates critical subsystems including an inertial measurement unit, motor control, battery management, and camera connectivity, making it ideal for small-scale autonomous or semi-autonomous aerial robotics.<img width="404" alt="image" src="https://github.com/user-attachments/assets/3ebf6459-3c5b-495b-a32b-b83d8cf7d938" />
+
 
 Unlike off-the-shelf drone controllers that depend on external ESCs and bulky companion boards, this design is fully embedded — using two DRV8833 dual H-bridge drivers to directly control up to four brushed DC motors, enabling simplified hardware and reduced size and weight. <img width="412" alt="image" src="https://github.com/user-attachments/assets/80799992-322c-42ba-9168-632a05ad0615" />
 
