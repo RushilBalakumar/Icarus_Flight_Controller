@@ -11,6 +11,7 @@ The ICM-42688 is the onboard IMU which provides real-time motion data (accelerat
 <img width="169" alt="image" src="https://github.com/user-attachments/assets/04a48fb6-8712-4417-badb-78e3b9fa7717" />
 
 The OV2640 camera connector enables vision-based features such as image streaming, object tracking, and AI-based navigation — all within the capabilities of the ESP32.
+<img width="169" alt="image" src="https://github.com/user-attachments/assets/32ff51bf-dab2-470a-ad7b-103a84804ca9" />
 
 
 Power is handled through a LiPo-compatible charging and regulation circuit, enabling safe USB C charging and efficient power delivery to the motors and logic systems. 
