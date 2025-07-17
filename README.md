@@ -1,10 +1,13 @@
 # Icarus_Flight_Controller
-A compact indoor drone flight controller built around the ESP32 microcontroller, designed specifically for brushed motor quadcopters. It integrates critical subsystems including an inertial measurement unit, motor control, battery management, and camera connectivity, making it ideal for small-scale autonomous or semi-autonomous aerial robotics.  
-<img width="404" alt="image" src="https://github.com/user-attachments/assets/3ebf6459-3c5b-495b-a32b-b83d8cf7d938" />
 
+![IMG_6423](https://github.com/user-attachments/assets/1fde339d-1d6f-49a6-a2dc-0212236683da)
+
+A compact indoor drone flight controller built around the ESP32 microcontroller, designed specifically for brushed motor quadcopters. It integrates critical subsystems including an inertial measurement unit, motor control, battery management, and camera connectivity, making it ideal for small-scale autonomous or semi-autonomous aerial robotics.  
+
+![PICA0038](https://github.com/user-attachments/assets/1efe4638-524b-444a-ae90-59688200570e)
 
 Unlike off-the-shelf drone controllers that depend on external ESCs and bulky companion boards, this design is fully embedded — using two DRV8833 dual H-bridge drivers to directly control up to four brushed DC motors, enabling simplified hardware and reduced size and weight. 
-<img width="412" alt="image" src="https://github.com/user-attachments/assets/80799992-322c-42ba-9168-632a05ad0615" />
+>
 
 
 The ICM-42688 is the onboard IMU which provides real-time motion data (acceleration and angular velocity), allowing the controller to compute orientation and run stabilization algorithms like PID control.
