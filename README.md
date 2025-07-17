@@ -7,18 +7,17 @@ A compact indoor drone flight controller built around the ESP32 microcontroller,
 ![PICA0038](https://github.com/user-attachments/assets/1efe4638-524b-444a-ae90-59688200570e)
 
 Unlike off-the-shelf drone controllers that depend on external ESCs and bulky companion boards, this design is fully embedded — using two DRV8833 dual H-bridge drivers to directly control up to four brushed DC motors, enabling simplified hardware and reduced size and weight. 
->
 
+![PICA0039](https://github.com/user-attachments/assets/dbf23a05-bb06-4ef5-b4e0-e8b14bc331e4)
 
 The ICM-42688 is the onboard IMU which provides real-time motion data (acceleration and angular velocity), allowing the controller to compute orientation and run stabilization algorithms like PID control.
-<img width="169" alt="image" src="https://github.com/user-attachments/assets/04a48fb6-8712-4417-badb-78e3b9fa7717" />
+
 
 The OV2640 camera connector enables vision-based features such as image streaming, object tracking, and AI-based navigation — all within the capabilities of the ESP32.
 
-<img width="169" alt="image" src="https://github.com/user-attachments/assets/32ff51bf-dab2-470a-ad7b-103a84804ca9" />
-
-
 Power is handled through a LiPo-compatible charging and regulation circuit, enabling safe USB C charging and efficient power delivery to the motors and logic systems. 
+
+![IMG_6421](https://github.com/user-attachments/assets/db27a8ed-44cb-40e6-ba8f-f6cb2e147610)
 
 With native Wi-Fi and Bluetooth, the ESP32 facilitates wireless telemetry, OTA updates, and remote control via mobile or web-based applications.
 
